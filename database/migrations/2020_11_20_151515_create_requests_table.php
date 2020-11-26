@@ -16,6 +16,7 @@ class CreateRequestsTable extends Migration
         Schema::create('requests', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id');
+            $table->string('email');
             $table->integer('contact_no');
             $table->string('resident_state');
             $table->float('amount_from', 8, 2);

@@ -262,29 +262,29 @@ p span{
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-7">
                                      @if(($order->currencyfrom) == 1)
-                                            <h2>From:  £ {{$order->amount_from}}</h2>
+                                            <h2  class="p-2">From:  £ {{$order->amount_from}}</h2>
                                         @elseif(($order->currencyfrom) == 2)
-                                            <h2>From: ₦ {{$order->amount_from}}</h2>
+                                            <h2  class="p-2">From: ₦ {{$order->amount_from}}</h2>
                                         @elseif(($order->currencyfrom) == 3)
-                                            <h2>From:GH₵ {{$order->amount_from}}</h2>
+                                            <h2  class="p-2">From:GH₵ {{$order->amount_from}}</h2>
                                         @elseif(($order->currencyfrom) == 4)
-                                            <h2>From: $ {{$order->amount_from}}</h2>
+                                            <h2  class="p-2">From: $ {{$order->amount_from}}</h2>
                                         @endif
 
                                         @if(($order->currencyto) == 1)
-                                            <h2>To: £ {{$order->amount_to}}</h2>
+                                            <h2  class="p-2">To: £ {{$order->amount_to}}</h2>
                                         @elseif(($order->currencyto) == 2)
-                                            <h2>To: ₦ {{$order->amount_to}}</h2>
+                                            <h2  class="p-2">To: ₦ {{$order->amount_to}}</h2>
                                         @elseif(($order->currencyto) == 3)
-                                            <h2> To: GH₵ {{$order->amount_to}}</h2>
+                                            <h2  class="p-2"> To: GH₵ {{$order->amount_to}}</h2>
                                         @elseif(($order->currencyto) == 4)
-                                            <h2> To: $ {{$order->amount_to}}</h2>
+                                            <h2  class="p-2"> To: $ {{$order->amount_to}}</h2>
                                         @endif
                             
                                     
-                                        <h2> Contact: {{$order->contact_no}}</h2>
-                                        <h2> Resident{{$order->resident_state}}</h2>
-                                        <h2> Date: {{date($order->created_at)}}</h2>
+                                        <h2  class="p-2"> Contact: {{$order->contact_no}}</h2>
+                                        <h2  class="p-2"> Resident: {{$order->resident_state}}</h2>
+                                        <h2  class="p-2"> Date: {{date($order->created_at)}}</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-7">
                             <h2 class="text-center display-1"> {{$order->rate}} </h2>

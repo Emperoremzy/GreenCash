@@ -9,6 +9,7 @@
                                 <thead>
                                     <tr class="">
                                     <th scope="col">#</th>
+                                    <th scope="col">User Email</th>
                                     <th scope="col">amount from</th>
                                     <th scope="col">amount to</th>
                                     <th scope="col">Rate of</th>
@@ -22,6 +23,7 @@
                         @foreach($transacts as $transact)
                                     <tr class="">
                                         <td> {{$index++}}</td>
+                                        <td>{{$transact->user_email}}</td>
                                         @if(($transact->currencyfrom) == 1)
                                             <td> £ {{$transact->amount_from}}</td>
                                         @elseif(($transact->currencyfrom) == 2)
@@ -31,6 +33,7 @@
                                         @elseif(($transact->currencyfrom) == 4)
                                             <td>$ {{$transact->amount_from}}</td>
                                         @endif
+                                            
 
                                         @if(($transact->currencyto) == 1)
                                             <td>£ {{$transact->amount_to}}</td>

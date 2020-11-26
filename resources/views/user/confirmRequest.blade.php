@@ -5,12 +5,12 @@
 <div class="container">
     <div class="card p-5 mt-5">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 p-5">
-                <h2>Name : {{$name}} </h2>
-                <h2>Contact Number: {{$phone}} </h2>
-                <h2>Resident State: {{$reside}}</h2>
-                <h2>From: {{$show_amount_from}}</h2>
-                <h2>To: {{$show_amount_to}} <h2>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-5 text-center">
+                <h2 class="p-2">Name : {{$name}} </h2>
+                <h2  class="p-2">Contact Number: {{$phone}} </h2>
+                <h2  class="p-2">Resident State: {{$reside}}</h2>
+                <h2  class="p-2">From: {{$show_amount_from}}</h2>
+                <h2  class="p-2">To: {{$show_amount_to}} <h2>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 text-center p-5">
                 <label for="">change rate</label>

@@ -117,6 +117,8 @@ class UserController extends Controller
 
         $process_request->user_id = auth::user()->id;
 
+        $process_request->user_email = auth::user()->email;
+
         $process_request->contact_no = $request->phone;
 
         $process_request->resident_state = $request->reside;
@@ -145,7 +147,7 @@ class UserController extends Controller
         return view('user.success')->with('mssg','Thank you for your order A team member will contact you shortly');
     }
 
-    
+
     public function transactions(){
 
         $view_transact = RequestModel::where('user_id', auth::user()->id)->get();
