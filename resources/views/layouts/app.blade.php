@@ -208,6 +208,14 @@
 #Works{
    font-weight: 500;
 }
+#Works h3{
+    color: #86C232 !important;
+    font-weight: 600;
+    border-width:1px;
+    border-bottom: solid;
+    border-color:#86C232;
+    width: 200px;
+}
 hr{
     border: 0;
     height: 1px;
@@ -215,17 +223,11 @@ hr{
 }
 
 #footer{
-    background-color:rgba(6, 10, 7, 0.9);
+    margin-top:-1.2% !important;
+    background-color: rgba(52, 58, 64, 1);
     color:white;
 }
-#footer h3{
-    color: white;
-    font-weight: 600;
-    border-width:1px;
-    border-bottom: solid;
-    border-color:#86C232;
-    width: 200px;
-}
+
 p span{
     color: #86C232;
 }
@@ -257,7 +259,7 @@ p span{
       
             @include('layouts.navbar')
             @yield('content')
-          
+            @include('layouts.footer')
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

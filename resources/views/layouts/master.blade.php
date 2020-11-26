@@ -19,7 +19,7 @@
       
             @include('layouts.navbar')
             @yield('content')
-
+            @include('layouts.footer')
      
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

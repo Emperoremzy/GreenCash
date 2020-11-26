@@ -83,31 +83,22 @@
         </div>
     </div>
 
-    <div class="container mt-5 text-left p-5" id="Works">
+    <div class="container mt-5 text-center p-5" id="Works">
+        <center>
            <h2 class="m-5">HOW IT WORKS</h2>
-                <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, reprehenderit! Facilis quia ad porro enim perspiciatis dolorum corrupti? Quibusdam odit iusto et consequatur ea consequuntur voluptates est dignissimos, id nisi.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?
+                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, reprehenderit! Facilis quia ad porro enim perspiciatis dolorum corrupti? Quibusdam odit iusto et consequatur ea consequuntur voluptates est dignissimos, id nisi.
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?
                 </p>
-            
+                <div class="row p-5 ">
+                    <div class="col-md-6">
+                        <h3 class=> About Us </h3>
+                        <p class=" mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3> Contact us</h3>
+                        <p class=" mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
+                    </div>
+                </div> 
+        </center>    
     </div>
-
-    
-    <div class="container-fluid mt-5" id="footer">
-        <div class="container">
-            <div class="row p-5">
-                <div class="col-md-6">
-                   <h3 class=> About Us </h3>
-                   <p class="text-left mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
-                </div>
-                <div class="col-md-6">
-                   <h3> Contact us</h3>
-                   <p class="text-left mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
-                </div>
-            </div>
-
-            <hr>
-           <p class="text-center p-5"> <span>copyright</span> &copy; <?php echo date('Y');?></p>
-        </div>
-    </div>
-
  @endsection         

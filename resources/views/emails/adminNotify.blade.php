@@ -281,13 +281,13 @@ p span{
                                             <h2  class="p-2"> To: $ {{$order->amount_to}}</h2>
                                         @endif
                             
-                                    
+                                        <h2  class="p-2"> clients email: {{$order->user_email}}</h2>
                                         <h2  class="p-2"> Contact: {{$order->contact_no}}</h2>
                                         <h2  class="p-2"> Resident: {{$order->resident_state}}</h2>
                                         <h2  class="p-2"> Date: {{date($order->created_at)}}</h2>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-7">
-                            <h2 class="text-center display-1"> {{$order->rate}} </h2>
+                            <h2 class="text-center display-1">rate: {{$order->rate}} </h2>
                     </div>
                 </div>
             </div>
