@@ -12,6 +12,8 @@
         <!-- Styles -->
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <!--custom css-->
         <link href="css/custom-style.css" rel="stylesheet">
             <style>

@@ -188,9 +188,13 @@
      
      
 }
-#Works{
-   font-weight: 500;
+#Works p{
+ font-size: 14px;
 }
+#Works li{
+ font-size: 14px;
+}
+
 
 #Works h3{
     color: #86C232 !important;
@@ -210,6 +214,7 @@ hr{
 #footer{
     margin-top:-1.2% !important;
     background-color:rgba(52, 58, 64, 1);
+    bottom: 0;
     color:whitesmoke;
 }
 p span{

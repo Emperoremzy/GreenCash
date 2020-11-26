@@ -83,22 +83,38 @@
         </div>
     </div>
 
-    <div class="container mt-5 text-center p-5" id="Works">
-        <center>
-           <h2 class="m-5">HOW IT WORKS</h2>
-                <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, reprehenderit! Facilis quia ad porro enim perspiciatis dolorum corrupti? Quibusdam odit iusto et consequatur ea consequuntur voluptates est dignissimos, id nisi.
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?
-                </p>
-                <div class="row p-5 ">
-                    <div class="col-md-6">
-                        <h3 class=> About Us </h3>
+    <div class="container mt-5 text-justify p-5" id="Works">
+             <h3 class="mt-5"> ABOUT US </h3>
+                        <p class=" mt-5">
+                             The founders Queen and Courage both hail from Nigeria. Courage worked in the UK, he got paid in pounds but needed Naira to send to his family and complete his housing project in Nigeria. While Queen was studying in the UK and her education founded by her Nigerian parent who earned in Naira. And she needed Pounds to pay her tuition.
+
+                            Every time they sent money through commercial Banks their time was always wasted and a lot of money lost due to hidden charges and terrible exchange rate. At some point they couldn’t receive money from Nigeria through the banks because of the restrictions on commercial banks by the Central Bank of Nigeria. The CBN created a monthly limitation to how much each commercial bank can give its customer to spend. They also found it difficult sending money to Nigeria as they couldn’t get good rates from the UK banks and most banks in the UK don’t send money to Nigeria. This frustration birthed the invention of “GREENCASH”
+
+                            GREENCASH is an alternative, simple and better way to send and receive money, at the same time enabling customers to have the best rate, cutting down time spent, inefficiency with no hidden charges.
+                          </p>
+                    
+            <h2 class="mt-5">HOW IT WORKS</h2>
+                    <p class="mt-5">
+                        <ol>
+                            <li> Create an account for free on our website</li>
+
+                            <li>Provide your transfer details (Choose to send to one of the 4 countries( Nigeria, United Kingdom, Ghana and USA).</li>
+
+                            <li> Add your transfer method: Bank Transfer and cash pick up (Transfer methods vary by country) .</li>
+
+                            <li> Choose how much you want to transfer (You’ll see our low fee price and exchange rate upfront).</li>
+
+                            <li> Add your recipient’s details (Or choose from a list of people you’ve sent to before.)</li>
+
+                            <li> Pay for your transfer (Pay via: Card (Debit, Credit and Prepaid) | Bank Transfer | Apple PayPayment methods vary by country.</li>
+                        </ol>           
+
+                    </p>
+                       
+                  
+                        <h3 class="mt-5"> CONTACT US</h3>
                         <p class=" mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h3> Contact us</h3>
-                        <p class=" mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
-                    </div>
-                </div> 
+                
         </center>    
     </div>
  @endsection         

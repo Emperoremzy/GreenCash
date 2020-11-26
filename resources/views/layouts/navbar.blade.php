@@ -32,15 +32,15 @@
         @guest
         @if (Request::is('/'))
             <li class="nav-item {{Request::is('/') ? 'active' : ''}}">
-              <a class="nav-link" href ="#">How it works <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href ="#Works">How it works <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href ="#">Contact Us</a>
+              <a class="nav-link" href ="#Works">Contact Us</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link " href ="#">Get Started</a>
+              <a class="nav-link " href ="{{ route('login') }}">Get Started</a>
             </li>
           @endif
          
