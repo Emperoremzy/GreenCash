@@ -280,7 +280,7 @@ p span{
                                         @elseif(($order->currencyto) == 4)
                                             <h2  class="p-2"> To: $ {{$order->amount_to}}</h2>
                                         @endif
-                            
+                                        <h2  class="p-2"> Refs ID: {{$order->id}}</h2>
                                         <h2  class="p-2"> clients email: {{$order->user_email}}</h2>
                                         <h2  class="p-2"> Contact: {{$order->contact_no}}</h2>
                                         <h2  class="p-2"> Resident: {{$order->resident_state}}</h2>

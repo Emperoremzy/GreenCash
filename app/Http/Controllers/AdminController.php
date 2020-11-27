@@ -52,4 +52,20 @@ class AdminController extends Controller
 
         return redirect()->back()->with('success', $success);
     }
+
+    public function search(Request $request)
+    {
+        $this->validate($request,[
+
+            'search' => "required"
+
+              ]);
+
+
+
+        $showSearch = RequestModel::findorfail($request->search);
+   
+        return view('admin.alltransact')->with('searchdetail', $showSearch);
+    }
+
 }

@@ -32,3 +32,4 @@ Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.d
 Route::put('/edit/rates', [AdminController::class, 'edit_Rate'])->name('edit.rate')->middleware('is_admin');
 Route::get('/admin/view/tramsactions', [AdminController::class, 'all_transacts'])->name('admin.alltransact')->middleware('is_admin');
 Route::get('/admin/clients', [AdminController::class, 'all_clients'])->name('admin.clients')->middleware('is_admin');
+Route::Post('/admin/search', [AdminController::class, 'search'])->name('admin.search')->middleware('is_admin');
