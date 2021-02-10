@@ -63,7 +63,7 @@
                         <br>
                         <div class="form-group">
                             <div class="">
-                                <button type="submit" class="btn p-2" style="background-color:transparent;border:1px solid #86C232" id="banner-button">
+                                <button type="submit" class="btn p-2" style="background-color:transparent;border:1px solid #FFA500" id="banner-button">
                                     {{ __('Register') }}
                                 </button>
                             </div>

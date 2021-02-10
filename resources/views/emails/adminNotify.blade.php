@@ -22,7 +22,7 @@
     
 }
 .navbar a{
-    color:#86C232 !important;
+    color:#FFA500 !important;
 }
 .navbar a:hover {
     color:white !important;
@@ -55,7 +55,7 @@
 
 #rate{
    /* position:absolute; */
-   color:#86C232;
+   color:#FFA500;
    position:relative;
    animation: animate 2s;
    animation-fill-mode: backwards;
@@ -79,24 +79,24 @@
 }
 
 #home-form-button{
-    color:#86C232;
+    color:#FFA500;
     font-weight:bold;
     background-color:transparent;
-    border: 1px solid #86C232;
+    border: 1px solid #FFA500;
     padding: 10px;
     text-transform: uppercase; 
 }
 
 #home-form-button:hover{
     color:white !important;
-    background-color: #86C232;
+    background-color: #FFA500;
 }
 
 /* magic button starts here */
 #banner-button{
     width: 150px !important;
    font-weight: bold;
-   color: #86C232;
+   color: #FFA500;
    text-transform: uppercase;
    letter-spacing: 4px;
    transition: 0.2s;
@@ -107,8 +107,8 @@
 
 #banner-button:hover{
    color:white;
-   background: #86C232;
-   box-shadow: 0 0 10px #86C232, 0 0 40px #86C232, 0 0 80px #86C232;
+   background: #FFA500;
+   box-shadow: 0 0 10px #FFA500, 0 0 40px #FFA500, 0 0 80px #FFA500;
    transition-delay: 1s; 
 }
 
@@ -122,7 +122,7 @@
     left: -100%;
     width: 100%;
     height:2px ;
-    background: linear-gradient(90deg,transparent,#86C232);
+    background: linear-gradient(90deg,transparent,#FFA500);
 
 }
 #banner-button:hover span:nth-child(1){
@@ -135,7 +135,7 @@
     right: -100%;
     width: 100%;
     height:2px ;
-    background: linear-gradient(270deg,transparent,#86C232);
+    background: linear-gradient(270deg,transparent,#FFA500);
 
 }
 #banner-button:hover span:nth-child(3){
@@ -149,7 +149,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#86C232);
+    background: linear-gradient(180deg,transparent,#FFA500);
 
 }
 /* left flow */
@@ -163,7 +163,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#86C232);
+    background: linear-gradient(360deg,transparent,#FFA500);
 
 }
 #banner-button:hover span:nth-child(4){
@@ -196,11 +196,11 @@
   }
 
 #Works h2{
-    color: #86C232;
+    color: #FFA500;
     font-weight: 600;
     border-width:1px;
     border-bottom: solid;
-     border-color:#86C232;
+     border-color:#FFA500;
      width: 30%;
      
      
@@ -211,7 +211,7 @@
 hr{
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(218, 216, 216, 0), #86C232, rgba(250, 248, 248, 0));
+    background-image: linear-gradient(to right, rgba(218, 216, 216, 0), #FFA500, rgba(250, 248, 248, 0));
 }
 
 #footer{
@@ -223,17 +223,17 @@ hr{
     font-weight: 600;
     border-width:1px;
     border-bottom: solid;
-    border-color:#86C232;
+    border-color:#FFA500;
     width: 200px;
 }
 p span{
-    color: #86C232;
+    color: #FFA500;
 }
 
 #authcards{
     color:white;
     background-color:transparent;
-    box-shadow: 0 0 10px #86C232, 0 0 40px #86C232, 0 0 80px #86C232;
+    box-shadow: 0 0 10px #FFA500, 0 0 40px #FFA500, 0 0 80px #FFA500;
 }
 
 #authcards input{
@@ -241,13 +241,13 @@ p span{
     border-top:0;
     border-left:0;
     border-right:0;
-    border-bottom:1px solid #86C232;
+    border-bottom:1px solid #FFA500;
     outline:none;
 }
 #authcards input:focus{
     height: 50px;
     color:white;
-    border-bottom:1px solid #86C232;
+    border-bottom:1px solid #FFA500;
     box-shadow: none;
 }
 
@@ -292,7 +292,7 @@ p span{
                 </div>
             </div>
             <p>Please visit <a href="http:://www.greencash.org">www.greencash</a> to treat this order</p>
-            <p>Green<em style="color:#86C232;">Cash</em> Team.<p>
+            <p>Green<em style="color:#FFA500;">Cash</em> Team.<p>
         </div>
 
      

@@ -143,8 +143,9 @@ class UserController extends Controller
         } catch (Exception $e){
             //return 123;
         }
+        $message = "Thank you for your order.<br>A team member will contact you shortly.";
 
-        return view('user.success')->with('mssg','Thank you for your order A team member will contact you shortly');
+        return view('user.success')->with('mssg', $message);
     }
 
 

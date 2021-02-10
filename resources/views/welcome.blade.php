@@ -47,7 +47,7 @@
                                     @if (auth::user()->users == 1)
                                     <a href="{{ route('admin.dashboard') }}"  class="btn btn-block btn-outline-success ">Dashboard</a>
                                     @else
-                                    <a href="{{ url('/dashboard') }}"  class="btn btn-block btn-outline-success ">Dashboard</a>
+                                    <a href="{{ url('user/home') }}"  class="btn btn-block btn-outline-success ">Dashboard</a>
                                     @endif
                                 @else
                                     @if (Route::has('register'))
@@ -115,6 +115,7 @@
                         <h3 class="mt-5"> CONTACT US</h3>
                         <p class=" mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos corrupti asperiores autem minus dolore magni sequi. Sint adipisci cumque, quis nemo veniam accusantium libero dicta. Distinctio, quibusdam itaque! Ad, itaque?</p>
                 
-        </center>    
+        </center> 
+        <br>   
     </div>
  @endsection         

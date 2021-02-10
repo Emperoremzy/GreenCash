@@ -7,7 +7,7 @@
         <div class="col-md-4">
             <div class="card p-5" id="authcards">
                
-
+                <br><br><br>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -61,15 +61,17 @@
                       <br>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <button type="submit" class="btn" style="background-color:transparent;border:1px solid #86C232" id="banner-button" >
+                                <button type="submit" class="btn" style="background-color:transparent;border:1px solid #FFA500" id="banner-button" >
                                     {{ __('Login') }}
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
+                <br><br><br>
             </div>
         </div>
     </div>
 </div>
+
 @endsection

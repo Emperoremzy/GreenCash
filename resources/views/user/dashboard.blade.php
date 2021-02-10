@@ -7,7 +7,7 @@
 
     <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 text-white p-5" >
-            <h1 class="display-1"> Fast <em style="color:#86C232;">cash</em> at incredible rates</h1>
+            <h1 class="display-1"> Fast <em style="color:#FFA500;">cash</em> at incredible rates</h1>
             <p>
                     GreenCash is your trusted source for affordable foreign currencies when you need it.
                     <br>
@@ -82,7 +82,7 @@
                 </div>
         </div>
     </div>
-
+<br><br>
     
 </div>
 @endsection
